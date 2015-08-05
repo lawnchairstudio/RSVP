@@ -1,5 +1,5 @@
 # RSVP 
-a gRPC service to help manage RSVPs to an event. This is a little side project to help further our knowledge of Go and get exposure to gRPC.
+A gRPC service to help manage RSVPs to an event. This is a little side project to help further our knowledge of Go and get exposure to gRPC.
 
 ## Setup
 
