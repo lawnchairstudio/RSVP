@@ -1,0 +1,14 @@
+package proto;
+
+service RSVP {
+	// Obtains an invitee based on the id
+	rpc GetInvitee(InviteeRequest) returns (Invitee) {}
+}
+
+message Invitee {
+	required string InviteeId = 1;
+}
+
+message InviteeRequest {
+	required string id = 1;
+}
